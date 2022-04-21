@@ -1,5 +1,5 @@
 # teste_tecnico_lading_page
-um teste tecnico de construir um lading page que consuma uma api para mostrar produtos
+um teste tecnico de construir uma lading page que consuma uma api para mostrar produtos
 # Desafio | Frontend Developer
 
 Olá! Seja bem vindo ao resultado do teste tecnico para a vaga de **Frontend Developer Júnior**.
