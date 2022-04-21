@@ -1,0 +1,384 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-primary: #FFFFFF;
+    --color-secondary: #707070;
+    --color-tertiary: #888888;
+    --color-quaternary: #D6D6D6;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.container_background{
+    background-color: var(--color-secondary);
+    height: 400px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    position: absolute;
+}
+
+.header{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.container_center{
+    width: 70%;
+   
+}
+
+.header .container_center{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header .container_center h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 60px 0 7px 0;
+
+}
+
+.header .container_center h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+.header .container_center > p{
+    font-size: 14px;
+    margin-bottom: 60px;
+
+}
+
+.header .container_center .boxes_buttons{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+   
+
+}
+
+.header .container_center .boxes_buttons p{
+    width: 160px;
+    margin: 0px 15px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+
+    color: var(--color-secondary);
+    transition: 400ms ease-in-out;
+    font-size: 14px;
+}
+.header .container_center .boxes_buttons p:hover{
+    background-color: var(--color-tertiary);
+    color: var(--color-quaternary);
+}
+
+
+.help{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.help .container_center{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.help .container_center .content{
+    width: 55%;
+    margin-right: 30px;
+    
+}
+
+.help .container_center .content h2{
+    color: var(--color-tertiary);
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.help .container_center .content p{
+    color: var(--color-tertiary);
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+
+
+.help .container_center .form_help{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.help .container_center .form_help label{
+    margin: 30px 0 10px;
+    color: var(--color-tertiary);
+    font-size: 14px;
+}
+.help .container_center .form_help input{
+  
+    border: 1px solid var(--color-tertiary);
+    padding: 5px;
+}
+.help .container_center .form_help .radios{
+    margin-top: 30px;
+}
+.help .container_center .form_help .radios label{
+    margin-right: 50px;
+
+}
+
+.help .container_center .form_help .radios input{
+    margin-right: 5px;
+}
+
+.help .container_center .form_help button{
+    margin-top: 30px;
+    background-color: var(--color-primary);
+    outline: none;
+    padding: 10px;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 8px;
+    color: var(--color-tertiary);
+    font-size: 18px;
+    font-weight:500px;
+}
+
+
+
+
+
+
+
+.produtos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos .container_center{
+    text-align: center;
+}
+
+.produtos .container_center .traco, .compartilhe .container_center .traco {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.produtos .container_center .traco div,  .compartilhe .container_center .traco div{
+    background-color: #888888;
+    height: 2px;
+    width: 350px;
+}
+.produtos .container_center .traco h2,  .compartilhe .container_center .traco h2{
+    margin: 0 20px;
+    color:var(--color-tertiary);
+    font-size: 18px;
+}
+.compartilhe .container_center .traco h2{
+    font-size: 16px;
+}
+
+
+.produtos .container_center .card_produtos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.produtos .container_center .card_produtos .card{
+    width: 23%;
+    text-align: left;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.produtos .container_center .card_produtos .image,.produtos .container_center .card_produtos .description{
+    width: 100%;
+}
+
+.produtos .container_center .card_produtos .card img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid var(--color-tertiary);
+}
+
+.produtos .container_center .card_produtos .card h2{
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0;
+    color: var(--color-tertiary);
+
+}
+.produtos .container_center .card_produtos .card h3{
+    font-size: 16px;
+    margin: 10px 0;
+    color: var(--color-tertiary);
+}
+
+.produtos .container_center > button{
+    width: 280px;
+    background-color: var(--color-primary);
+    font-size: 17px;
+    color: var(--color-tertiary);
+    border: 1px solid var(--color-tertiary);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 30px 0 120px;
+
+}
+
+.produtos .container_center .card_produtos .card p{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 10px 0;
+    color: var(--color-tertiary);
+}
+
+.produtos .container_center .card_produtos .card button{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+    color: var(--color-tertiary);
+    font-size: 20px;
+    border: 1px solid var(--color-tertiary);
+
+}
+
+.compartilhe{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.compartilhe .container_center h3{
+    margin: 40px 0;
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-tertiary);
+    font-weight: normal;
+}
+.compartilhe .container_center .convite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.compartilhe .container_center .convite .inputs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.compartilhe .container_center .convite .inputs div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.compartilhe .container_center .convite .inputs div input{
+    margin: 0 30px;
+    border: 1px solid var(--color-tertiary);
+    padding: 5px ;
+    outline: none;
+    width: 380px;
+}
+.compartilhe .container_center .convite .inputs div span{
+    margin: 0 30px;
+}
+
+.compartilhe .container_center .convite .inputs div label{
+    margin: 0 30px;
+    margin-bottom: 10px;
+    color: var(--color-tertiary);
+    font-size: 14px;
+}
+
+.compartilhe .container_center .convite button{
+    width: 280px;
+    background-color: var(--color-primary);
+    font-size: 17px;
+    color: var(--color-tertiary);
+    border: 1px solid var(--color-tertiary);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: var(--color-secondary);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.footer p{
+    color: var(--color-quaternary);
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* STYLES PARA VALIDAR FORMULÁRIOS */
+.input_error{
+    border: 2px solid red !important; 
+
+}
+.error{
+    color: red;
+}
+.cadastro_concluido, .cadastro_concluido_convidado{
+    transition: 1s ease-in-out;
+   display: none; 
+   margin: auto;
+}
+
+.cadastro_concluido h2, .cadastro_concluido_convidado h2{
+    text-align: center;
+    border: 4px solid green;
+    font-size: 22px;
+    color: green;
+    padding: 1px;
+
+}

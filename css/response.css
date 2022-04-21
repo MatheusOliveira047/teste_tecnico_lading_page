@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+    .header .container_center .boxes_buttons p{
+        width: 140px;
+        margin:15px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 1px solid var(--color-secondary);
+        
+        transition: 400ms ease-in-out;
+        font-size: 14px;
+    }
+    .header .container_center h3{
+        font-size: 20px;
+        font-weight: normal;
+        margin: 40px 0 5px 0;
+    
+    }
+    
+    .header .container_center h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .header .container_center > p{
+        font-size: 14px;
+        margin-bottom: 40px;
+    
+    }
+    
+    
+}
+
+
+@media (max-width: 480px){
+    .container_center{
+        width: 95%;
+    }
+    .header .container_center .boxes_buttons p{
+        width: 40%;
+        margin:15px;
+        cursor: pointer;        
+        font-size: 12px;
+    }
+    .header .container_center h3{
+        font-size: 14px;
+        font-weight: normal;
+        margin: 40px 0 5px 0;
+        text-align: left;
+    
+    }
+    
+    .header .container_center h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+        text-align: left;
+    
+    }
+    
+    .header .container_center > p{
+        font-size: 14px;
+        margin-bottom: 40px;
+        text-align: left;
+    
+    }
+    
+
+    .help{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .help .container_center .content{
+        width: 100%;
+        
+        
+    }
+    .help .container_center .form_help{
+        width: 100%;
+        
+    }
+    .produtos .container_center .traco div,  .compartilhe .container_center .traco div{
+        background-color: #888888;
+        height: 2px;
+        width: 120px;
+    }
+
+    .produtos .container_center .traco h2,  .compartilhe .container_center .traco h2{
+        margin: 0 15px;
+        font-size: 16px;
+    }
+
+    .produtos .container_center .card_produtos .card{
+        width: 100%;
+        justify-content: space-around;
+        
+    }
+    .produtos .container_center .card_produtos .card img{
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--color-tertiary);
+    }
+    .produtos .container_center .card_produtos .image,.produtos .container_center .card_produtos .description{
+        width: 46%;
+        
+    }
+
+    .compartilhe .container_center .convite{
+        width: 100%;
+    }
+    .compartilhe .container_center .convite .inputs{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+    .compartilhe .container_center .convite .inputs div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .compartilhe .container_center .convite .inputs div input{
+        margin: 0;
+        padding: 10px ;
+        width: 100%;
+    }
+    .compartilhe .container_center .convite .inputs div label{
+        margin: 25px 0 10px;
+       
+    }
+
+    .footer{
+        
+        height: 150px;
+       
+    }
+    .footer p:first-child{
+      margin-top: 60px; 
+    }
+    .footer p{
+       
+        margin-bottom: 5px;
+        
+    }
+
+}
